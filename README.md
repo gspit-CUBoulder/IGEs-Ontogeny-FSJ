@@ -14,6 +14,8 @@ juv.t - Juvenile individual ID (USFWS), nest of origin of the focal juvenile (Na
 
 pedPrunedASREML - Juvenile individual ID (USFWS), paternal ID (Dad), maternal ID (Mom)
 
+The input data is used to generate Generalized Mixed Effect Models using ASReml in R. The models are fit and tested in the following scripts:
+
 02a-DilutionParameter-Helpers.R - Dilution parameter assessment of models with only helpers
 
 02b-DilutionParameter-MomHelpers.R - Dilution parameter assessment of models with helpers and moms
